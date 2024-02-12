@@ -11,7 +11,7 @@
    <followRedirects>false</followRedirects>
    <httpBody></httpBody>
    <httpBodyContent>{
-  &quot;text&quot;: &quot;{\n    \&quot;title\&quot;: \&quot;foo\&quot;,\n    \&quot;body\&quot;: \&quot;bar\&quot;,\n    \&quot;userId\&quot;: \&quot;1\&quot;\n}&quot;,
+  &quot;text&quot;: &quot;{\n    \&quot;title\&quot;: \&quot;Buku kita\&quot;,\n    \&quot;body\&quot;: \&quot;bagus\&quot;,\n    \&quot;userId\&quot;: \&quot;9\&quot;\n}&quot;,
   &quot;contentType&quot;: &quot;application/json&quot;,
   &quot;charset&quot;: &quot;UTF-8&quot;
 }</httpBodyContent>
