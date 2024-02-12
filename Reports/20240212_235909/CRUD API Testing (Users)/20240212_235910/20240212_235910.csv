@@ -1,0 +1,18 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+CRUD API Testing (Users),,,,12-02-2024 23:59:14,12-02-2024 23:59:19,4.730s,FAILED
+,,,,,,,
+Test Cases/Users Endpoint/Get User by User id,,,,12-02-2024 23:59:15,12-02-2024 23:59:17,2.474s,FAILED
+"response = sendRequest(findTestObject(""Users/Get user by id""))",,,,12-02-2024 23:59:15,12-02-2024 23:59:17,2.066s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,12-02-2024 23:59:17,12-02-2024 23:59:17,0.031s,PASSED
+"verifyElementPropertyValue(response, ""id"", ""3"")",,,,12-02-2024 23:59:17,12-02-2024 23:59:17,0.101s,FAILED
+,,,,,,,
+Test Cases/Users Endpoint/Add new user,,,,12-02-2024 23:59:17,12-02-2024 23:59:18,1.301s,PASSED
+"response = sendRequest(findTestObject(""Users/Add User""))",,,,12-02-2024 23:59:17,12-02-2024 23:59:18,1.022s,PASSED
+"verifyResponseStatusCode(response, 201)",,,,12-02-2024 23:59:18,12-02-2024 23:59:18,0.015s,PASSED
+"verifyElementPropertyValue(response, ""id"", ""11"")",,,,12-02-2024 23:59:18,12-02-2024 23:59:18,0.063s,PASSED
+"verifyElementPropertyValue(response, ""name"", ""Leanne Graham"")",,,,12-02-2024 23:59:18,12-02-2024 23:59:18,0.042s,PASSED
+"verifyElementPropertyValue(response, ""username"", ""Bret"")",,,,12-02-2024 23:59:18,12-02-2024 23:59:18,0.044s,PASSED
+,,,,,,,
+Test Cases/Users Endpoint/Delete User,,,,12-02-2024 23:59:18,12-02-2024 23:59:19,0.742s,PASSED
+"response = sendRequest(findTestObject(""Users/Delete User""))",,,,12-02-2024 23:59:18,12-02-2024 23:59:19,0.642s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,12-02-2024 23:59:19,12-02-2024 23:59:19,0.016s,PASSED
