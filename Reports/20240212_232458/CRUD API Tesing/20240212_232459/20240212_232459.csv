@@ -1,0 +1,26 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+CRUD API Tesing,,,,12-02-2024 23:25:03,12-02-2024 23:25:08,5.175s,PASSED
+,,,,,,,
+Test Cases/Get User id-1,,,,12-02-2024 23:25:03,12-02-2024 23:25:06,2.278s,PASSED
+"response = sendRequest(findTestObject(""User""))",,,,12-02-2024 23:25:04,12-02-2024 23:25:06,1.888s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,12-02-2024 23:25:06,12-02-2024 23:25:06,0.035s,PASSED
+"verifyElementPropertyValue(response, ""id"", ""1"")",,,,12-02-2024 23:25:06,12-02-2024 23:25:06,0.110s,PASSED
+,,,,,,,
+Test Cases/Post Resource,,,,12-02-2024 23:25:06,12-02-2024 23:25:06,0.765s,PASSED
+"response = sendRequest(findTestObject(""Post""))",,,,12-02-2024 23:25:06,12-02-2024 23:25:06,0.592s,PASSED
+"verifyResponseStatusCode(response, 201)",,,,12-02-2024 23:25:06,12-02-2024 23:25:06,0.014s,PASSED
+"verifyElementPropertyValue(response, ""title"", ""Buku kita"")",,,,12-02-2024 23:25:06,12-02-2024 23:25:06,0.030s,PASSED
+"verifyElementPropertyValue(response, ""body"", ""bagus"")",,,,12-02-2024 23:25:06,12-02-2024 23:25:06,0.028s,PASSED
+"verifyElementPropertyValue(response, ""userId"", ""9"")",,,,12-02-2024 23:25:06,12-02-2024 23:25:06,0.031s,PASSED
+,,,,,,,
+Test Cases/Update Data,,,,12-02-2024 23:25:06,12-02-2024 23:25:07,0.830s,PASSED
+"response = sendRequest(findTestObject(""Update""))",,,,12-02-2024 23:25:07,12-02-2024 23:25:07,0.630s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,12-02-2024 23:25:07,12-02-2024 23:25:07,0.008s,PASSED
+"verifyElementPropertyValue(response, ""id"", ""1"")",,,,12-02-2024 23:25:07,12-02-2024 23:25:07,0.040s,PASSED
+"verifyElementPropertyValue(response, ""title"", ""FooMa"")",,,,12-02-2024 23:25:07,12-02-2024 23:25:07,0.035s,PASSED
+"verifyElementPropertyValue(response, ""body"", ""baroKah"")",,,,12-02-2024 23:25:07,12-02-2024 23:25:07,0.022s,PASSED
+"verifyElementPropertyValue(response, ""userId"", ""1"")",,,,12-02-2024 23:25:07,12-02-2024 23:25:07,0.022s,PASSED
+,,,,,,,
+Test Cases/Delete User,,,,12-02-2024 23:25:07,12-02-2024 23:25:08,1.100s,PASSED
+"response = sendRequest(findTestObject(""Delete Resource""))",,,,12-02-2024 23:25:07,12-02-2024 23:25:08,1.044s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,12-02-2024 23:25:08,12-02-2024 23:25:08,0.006s,PASSED

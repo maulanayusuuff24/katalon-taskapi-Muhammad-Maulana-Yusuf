@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="CRUD API Tesing" time="6.916" tests="4" failures="0" errors="0">
+   <testsuite name="CRUD API Tesing" tests="4" failures="0" errors="0" time="6.916" skipped="0" timestamp="12-02-2024T23:27:01" hostname="Maulana Y - DESKTOP-736VERV" id="Test Suites/CRUD API Tesing">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Maulana Y\\git\\katalon-taskapi-Muhammad-Maulana-Yusuf\\Reports\\20240212_232656\\CRUD API Tesing\\20240212_232656"/>
+         <property name="logFiles" value="C:\\Users\\Maulana Y\\git\\katalon-taskapi-Muhammad-Maulana-Yusuf\\Reports\\20240212_232656\\CRUD API Tesing\\20240212_232656\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Maulana Y - DESKTOP-736VERV"/>
+         <property name="hostAddress" value="192.168.100.5"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.3.0.212"/>
+      </properties>
+      <testcase name="Test Cases/Get User id-1" time="2.876" classname="Test Cases/Get User id-1" status="PASSED">
+         <system-out><![CDATA[12-02-2024T23:27:01 - [TEST_CASE][PASSED] - Test Cases/Get User id-1: Test Cases/Get User id-1
+
+12-02-2024T23:27:01 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("User")): Send request successfully
+
+12-02-2024T23:27:04 - [MESSAGE][INFO] - HAR: C:\Users\Maulana Y\git\katalon-taskapi-Muhammad-Maulana-Yusuf\Reports\20240212_232656\CRUD API Tesing\20240212_232656\requests\main\0.har
+
+12-02-2024T23:27:04 - [MESSAGE][PASSED] - Send request successfully
+
+12-02-2024T23:27:04 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+12-02-2024T23:27:04 - [MESSAGE][PASSED] - Verify response status code successfully
+
+12-02-2024T23:27:04 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "id", "1"): Verify element property value successfully
+
+12-02-2024T23:27:04 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Post Resource" time="1.404" classname="Test Cases/Post Resource" status="PASSED">
+         <system-out><![CDATA[12-02-2024T23:27:04 - [TEST_CASE][PASSED] - Test Cases/Post Resource: Test Cases/Post Resource
+
+12-02-2024T23:27:04 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("Post")): Send request successfully
+
+12-02-2024T23:27:05 - [MESSAGE][INFO] - HAR: C:\Users\Maulana Y\git\katalon-taskapi-Muhammad-Maulana-Yusuf\Reports\20240212_232656\CRUD API Tesing\20240212_232656\requests\main\1.har
+
+12-02-2024T23:27:05 - [MESSAGE][PASSED] - Send request successfully
+
+12-02-2024T23:27:05 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 201): Verify response status code successfully
+
+12-02-2024T23:27:05 - [MESSAGE][PASSED] - Verify response status code successfully
+
+12-02-2024T23:27:05 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "title", "Buku kita"): Verify element property value successfully
+
+12-02-2024T23:27:05 - [MESSAGE][PASSED] - Verify element property value successfully
+
+12-02-2024T23:27:05 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "body", "bagus"): Verify element property value successfully
+
+12-02-2024T23:27:05 - [MESSAGE][PASSED] - Verify element property value successfully
+
+12-02-2024T23:27:05 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "userId", "9"): Verify element property value successfully
+
+12-02-2024T23:27:05 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Update Data" time="1.153" classname="Test Cases/Update Data" status="PASSED">
+         <system-out><![CDATA[12-02-2024T23:27:05 - [TEST_CASE][PASSED] - Test Cases/Update Data: Test Cases/Update Data
+
+12-02-2024T23:27:05 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("Update")): Send request successfully
+
+12-02-2024T23:27:06 - [MESSAGE][INFO] - HAR: C:\Users\Maulana Y\git\katalon-taskapi-Muhammad-Maulana-Yusuf\Reports\20240212_232656\CRUD API Tesing\20240212_232656\requests\main\2.har
+
+12-02-2024T23:27:06 - [MESSAGE][PASSED] - Send request successfully
+
+12-02-2024T23:27:06 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+12-02-2024T23:27:06 - [MESSAGE][PASSED] - Verify response status code successfully
+
+12-02-2024T23:27:06 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "id", "1"): Verify element property value successfully
+
+12-02-2024T23:27:06 - [MESSAGE][PASSED] - Verify element property value successfully
+
+12-02-2024T23:27:06 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "title", "FooMa"): Verify element property value successfully
+
+12-02-2024T23:27:06 - [MESSAGE][PASSED] - Verify element property value successfully
+
+12-02-2024T23:27:06 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "body", "baroKah"): Verify element property value successfully
+
+12-02-2024T23:27:07 - [MESSAGE][PASSED] - Verify element property value successfully
+
+12-02-2024T23:27:07 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "userId", "1"): Verify element property value successfully
+
+12-02-2024T23:27:07 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Delete User" time="1.085" classname="Test Cases/Delete User" status="PASSED">
+         <system-out><![CDATA[12-02-2024T23:27:07 - [TEST_CASE][PASSED] - Test Cases/Delete User: Test Cases/Delete User
+
+12-02-2024T23:27:07 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("Delete Resource")): Send request successfully
+
+12-02-2024T23:27:08 - [MESSAGE][INFO] - HAR: C:\Users\Maulana Y\git\katalon-taskapi-Muhammad-Maulana-Yusuf\Reports\20240212_232656\CRUD API Tesing\20240212_232656\requests\main\3.har
+
+12-02-2024T23:27:08 - [MESSAGE][PASSED] - Send request successfully
+
+12-02-2024T23:27:08 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+12-02-2024T23:27:08 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[12-02-2024T23:27:01 - [TEST_SUITE][PASSED] - CRUD API Tesing: Test Cases/Delete User]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
